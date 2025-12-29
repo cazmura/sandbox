@@ -71,7 +71,6 @@ elif x > 5:
     print("xは5より大きいが、10以下")
 else:
     print("xは5以下")
-'''
 
 x = 20
 y = 20
@@ -81,6 +80,41 @@ print(x>=y)
 print(x==y)
 print(x<=y)
 print(x<y)
+
+lst = [1, 2, 3]
+
+print(2 in lst)
+
+x = None
+
+print(x is None)
+
+x = 10
+y = 20
+
+print(x and y > 15)
+print(x or y > 15)
+
+x = 1
+
+if x is not None:
+    print("x は None ではない")
+
+x = [1, 2, 3]
+
+for item in x:
+    print(item)
+
+for i in range(10):
+    print(i)
+'''
+
+
+
+
+
+
+
 
 
 
