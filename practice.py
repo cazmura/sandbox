@@ -482,13 +482,84 @@ print(x.replace(',', '&'))
 
 lst = {1, 2, 3}
 print(max(lst))
-'''
-
 
 def sample():
     print('a')
 
 sample()
+
+lst = [1, 2, 3]
+
+lst.append(4)
+
+print(lst)
+
+lst = [1, 2, 3]
+
+lst.remove(3)
+
+print(lst)
+
+lst = [1, 2, 3]
+
+print(2 in lst)
+
+x = {1, 2, 3}
+
+y = {3, 4, 5}
+
+print(x.union(y))
+
+print(x.)
+
+dct = {'id': '0001', 'name': 'guest'}
+
+for key, value in dct.items():
+    print(key, value)
+
+x = 0
+
+try:
+    print(1 / x)
+except ZeroDivisionError:
+    print('ゼロ除算エラーが発生しました')
+
+def sample():
+    print('Hello World')
+
+sample()
+
+def greet(name):
+    print(f'こんにちは、{name}さん')
+
+
+greet('テスト')
+
+def add(a, b):
+    return a + b
+
+x = add(1, 1)
+print(x)
+
+def welcome_message(name='ゲスト'):
+    print(f'ようこそ {name} さん')
+
+welcome_message()
+welcome_message('管理者')
+'''
+
+def print_args(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+print_args('A', 'B', key1='X', key2='Y')
+
+    
+
+
+
+
+
 
 
 
