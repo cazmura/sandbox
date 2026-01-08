@@ -546,7 +546,6 @@ def welcome_message(name='ゲスト'):
 
 welcome_message()
 welcome_message('管理者')
-'''
 
 def print_args(*args, **kwargs):
     print(args)
@@ -554,21 +553,39 @@ def print_args(*args, **kwargs):
 
 print_args('A', 'B', key1='X', key2='Y')
 
-    
+lst = [1, 2, 3]
 
+print(4 in lst)
 
+x = {1, 2, 3}
 
+y = {3, 4, 5}
 
+print(y.union(x))
 
+print(y.intersection(x))
 
+dct = {'id': '0001', 'name': 'guest'}
 
+for x in dct.items():
+    print(x)
 
+def add(a, b):
+    return a + b
 
+print(add(1,1))
 
+def welcome_message(name='ゲスト'):
+    print(f'ようこそ{name}さん')
 
+welcome_message()
+welcome_message('管理者')
+'''
 
+class SimpleClass:
+    def __init__(self, name):
+        print(f'名前が{name}のオブジェクトを作成しました')
 
-
-
+SimpleClass('a')
 
 
