@@ -49,8 +49,6 @@ def print_args(*args, **kwargs):
 
 print_args('key1=X', key2='Y')
 
-'''
-
 class SimpleClass():
     count = 0
 
@@ -70,4 +68,66 @@ x = SimpleClass('サンプル')
 
 x.print_name()
 x.print_count()
+
+x = '1, 2, 3'
+
+print(x.replace(',','&'))
+
+x = '1, 2, 3'
+
+lst = x.split(',')
+
+print(lst)
+
+y = '&'.join(lst)
+
+print(y)
+lst = [1, 2, 3]
+
+x = max(lst)
+
+print(x)
+
+x = 0
+
+try:
+    print(1 / x)
+except ZeroDivisionError:
+    print('abc')
+
+x = None
+
+try:
+    print(x * 2)
+except TypeError:
+
+x = -1
+
+for x in range(1, 10):
+    for y in range(1, 10):
+        z = x * y
+        print(f'{x} × {y} = {z}')
+'''
+
+ファイル「わかるをつくる中学英語問題集 1」に対して以下の操作を行なってください。
+
+x = 感嘆文・話法・仮定法
+x の基本問題カラムに「基本 {親番号}-{小番号}」の記述をしてください。
+  親番1の子番号は4つ、
+  親番2の子番号は4つ、
+  親番3の子番号は4つ、
+  親番4の子番号は4つ、
+  親番5の子番号は6つ、
+  親番6の子番号は7つ、
+でお願いします
+また、x の基本問題カラムに「応用 {親番号}-{小番号}」の記述をしてください。
+  親番1の子番号は4つ、
+  親番2の子番号は3つ、
+  親番3の子番号は2つ、
+  親番4の子番号は3つ、
+  親番5の子番号は3つ、
+でお願いします
+
+
+
 
